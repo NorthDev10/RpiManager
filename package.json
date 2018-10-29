@@ -1,0 +1,18 @@
+{
+  "name": "RpiManager",
+  "version": "1.0.0",
+  "main": "app.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "babel src -d dist"
+  },
+  "dependencies": {
+    "onoff": "^3.2.2",
+    "shelljs": "^0.8.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
+}
