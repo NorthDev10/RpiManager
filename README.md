@@ -17,22 +17,22 @@
 
 <p>Для работы скрипта необходимо установить Node.js</p>
 <p>Скачиваем Node.js</p>
-<code>curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -</code>
+<code>curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -</code>
 <p>Устанавливаем Node.js</p>
 <code>sudo apt-get install -y nodejs</code>
 <p>Проверяем версию установленной Node.js</p>
 <code>node -v</code>
-<p>v8.12.0</p>
+<p>v10.14.2</p>
 
 <p>Для установки Node.js пакетов, будем использовать yarn</p>
 <p>Установка yarn</p>
-<code>curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -</code>
-<code>echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list</code>
-<code>sudo apt-get update && sudo apt-get install yarn</code>
+<p><code>curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -</code></p>
+<p><code>echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list</code></p>
+<p><code>sudo apt-get update && sudo apt-get install yarn</code></p>
 
 <p>Проверяем версию установленного yarn</p>
 <code>yarn -v</code>
-<p>1.10.1</p>
+<p>1.12.3</p>
 
 <p>Переходи к каталогу с проектом</p>
 <code>cd /bin/RpiManager/</code>
